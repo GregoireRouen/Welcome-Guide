@@ -3,10 +3,117 @@
     <title>Welcome Guide le nid panoramique du centre ville</title>
     <link href="https://gregoirerouen.github.io/Welcome-Guide/feed.xml" rel="self" />
     <link href="https://gregoirerouen.github.io/Welcome-Guide" />
-    <updated>1970-01-01T01:00:00+01:00</updated>
+    <updated>2026-05-24T09:49:27+02:00</updated>
     <author>
         <name>Gregoire</name>
     </author>
     <id>https://gregoirerouen.github.io/Welcome-Guide</id>
 
+    <entry>
+        <title>Welcome to Your Stay </title>
+        <author>
+            <name>Gregoire</name>
+        </author>
+        <link href="https://gregoirerouen.github.io/Welcome-Guide/welcome-to-your-stay.html"/>
+        <id>https://gregoirerouen.github.io/Welcome-Guide/welcome-to-your-stay.html</id>
+
+        <updated>2026-05-24T09:49:27+02:00</updated>
+            <summary type="html">
+                <![CDATA[
+                    We’re happy to host you. This guide gathers everything you need for a smooth and comfortable stay. Check-in Check-out Host Emergency Supermarkets Restaurants Please help us keep the place clean and environmentally friendly. Thank you for staying with us. If anything is unclear, please contact&hellip;
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                <section class="card">
+<p>We’re happy to host you. This guide gathers everything you need for a smooth and comfortable stay.</p>
+<h2>Check-in &amp; Check-out - <span class="tag">Arrival &amp; Departure</span></h2>
+<p class="label">Check-in</p>
+<ul>
+<li>Standard check-in time: <strong>from 4:30 PM</strong>.</li>
+<li>Self check-in with key box.</li>
+<li>Please let us know your approximate arrival time.</li>
+</ul>
+<p class="label">Check-out</p>
+<ul>
+<li>Check-out time: <strong>before 11:00 AM</strong>.</li>
+<li>Leave the keys: <strong>[please ask where to leave them]</strong>.</li>
+<li>Turn off lights, and close all windows.</li>
+</ul>
+<div class="highlight"><span class="label">Late check-out:</span> subject to availability – please contact us in advance.</div>
+</section>
+<section class="card">
+<h2>Contacts <span class="tag">Need Help?</span></h2>
+<div class="two-columns">
+<div>
+<p class="label">Host</p>
+<ul>
+<li>Name: <strong>Grégoire</strong></li>
+<li>Contact via Airbnb messages</li>
+</ul>
+</div>
+<div>
+<p class="label">Emergency</p>
+<ul>
+<li>Emergency services: <strong>112</strong></li>
+<li>Nearest hospital: <strong>Charles-Nicolle, 37 boulevard Gambetta, 76000 Rouen, Phone : +33 2 32 88 89 90</strong></li>
+</ul>
+</div>
+</div>
+</section>
+<section class="card">
+<h2>House Rules <span class="tag">Please Read</span></h2>
+<ul>
+<li><strong>No smoking</strong> inside the property.</li>
+<li>No parties or events without prior approval.</li>
+<li>Quiet hours: <strong>10:00 PM – 7:00 AM</strong>.</li>
+<li>Only registered guests are allowed to stay overnight.</li>
+<li>Please report any damage immediately.</li>
+</ul>
+</section>
+<section class="card">
+<h2>Nearby Supermarkets &amp; Restaurants <span class="tag">Food &amp; Essentials</span></h2>
+<div class="two-columns">
+<div>
+<p class="label">Supermarkets</p>
+<ul>
+<li><strong>[Intermarché]</strong> – rue des charettes, 76000 Rouen</li>
+<li><strong>[Monoprix]</strong> – 73 rue du Gros Horloge, 76000 Rouen</li>
+</ul>
+</div>
+<div>
+<p class="label">Restaurants</p>
+<ul>
+<li><strong>[La belle époque]</strong> – 18 rue des charrettes, 76000 Rouen, traditionnelle française</li>
+<li><strong style="font-size: inherit;">[Koala Pizza]</strong><span style="font-size: inherit;"> – 22 rue des charrettes, 76000 Rouen, pizza </span></li>
+</ul>
+<p> </p>
+</div>
+</div>
+<div class="highlight">Tip: you can also explore nearby options on <a href="https://www.google.com/maps" target="_blank" rel="noopener">Google Maps</a> by searching the address of the property.</div>
+</section>
+<section class="card">
+<h2>Transport &amp; Getting Around <span class="tag">Move Around</span></h2>
+<ul>
+<li><span class="label">Parking:</span> street free from 7PM to 9AM.</li>
+<li><span class="label">Public transport:</span> Théatre des arts, Belges, lines: <strong>[T1, T2, T3</strong><strong>]</strong>.</li>
+<li><span class="label">Train station:</span> Gare de Rouen, métro Théatre des arts.</li>
+<li><span class="label">Taxi / VTC: Rouen Taxi Farnes +33 <span aria-label="Appeler le 06 89 07 78 61">6 89 07 78 61</span>, Uber</span>.</li>
+</ul>
+</section>
+<section class="card">
+<h2>Waste &amp; Recycling</h2>
+<h4><span class="tag">Eco-friendly</span></h4>
+<p>Please help us keep the place clean and environmentally friendly.</p>
+<ul>
+<li><span class="label">General waste:</span> 6l bin in the kitchen.</li>
+<li><span class="label">Recycling:</span> please use the yellow bag , the collection bin is outside the building.</li>
+<li>Do not leave bags outside the property</li>
+</ul>
+<p> </p>
+</section>
+<footer>Thank you for staying with us. If anything is unclear, please contact us anytime.</footer>
+            ]]>
+        </content>
+    </entry>
 </feed>
