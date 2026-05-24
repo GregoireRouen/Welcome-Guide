@@ -1,0 +1,3 @@
+User-agent: *
+Disallow:
+Sitemap: https://gregoirerouen.github.io/Welcome-Guide/sitemap.xml

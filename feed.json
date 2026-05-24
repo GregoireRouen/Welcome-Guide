@@ -1,0 +1,13 @@
+{
+    "version": "https://jsonfeed.org/version/1",
+    "title": "Welcome Guide le nid panoramique du centre ville",
+    "description": "",
+    "home_page_url": "https://gregoirerouen.github.io/Welcome-Guide",
+    "feed_url": "https://gregoirerouen.github.io/Welcome-Guide/feed.json",
+    "user_comment": "",
+    "author": {
+        "name": "Gregoire"
+    },
+    "items": [
+    ]
+}
