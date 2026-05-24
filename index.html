@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Guest Welcome Guide</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <style>
+    :root {
+      --bg: #f7f7fb;
+      --card: #ffffff;
+      --accent: #1f4f7b;
+      --accent-soft: #e4edf7;
+      --text: #222222;
+      --muted: #666666;
+      --border: #dddddd;
+      --radius: 10px;
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      line-height: 1.6;
+      padding: 24px;
+    }
+
+    .container {
+      max-width: 900px;
+      margin: 0 auto;
+    }
+
+    header {
+      text-align: center;
+      margin-bottom: 32px;
+    }
+
+    header h1 {
+      font-size: 2.2rem;
+      color: var(--accent);
+      margin-bottom: 8px;
+    }
+
+    header p {
+      color: var(--muted);
+      font-size: 0.95rem;
+    }
+
+    .card {
+      background: var(--card);
+      border-radius: var(--radius);
+      padding: 20px 22px;
+      margin-bottom: 18px;
+      border: 1px solid var(--border);
+      box-shadow: 0 4px 10px rgba(0,0,0,0.03);
+    }
+
+    .card h2 {
+      font-size: 1.2rem;
+      margin-bottom: 10px;
+      color: var(--accent);
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+
+    .tag {
+      display: inline-block;
+      background: var(--accent-soft);
+      color: var(--accent);
+      border-radius: 999px;
+      padding: 2px 10px;
+      font-size: 0.75rem;
+      text-transform: uppercase;
+      letter-spacing: 0.04em;
+    }
+
+    p, li {
+      font-size: 0.95rem;
+    }
+
+    ul {
+      margin-left: 18px;
+      margin-top: 6px;
+    }
+
+    .two-columns {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+      gap: 14px;
+    }
+
+    .highlight {
+      background: var(--accent-soft);
+      border-radius: 8px;
+      padding: 10px 12px;
+      font-size: 0.9rem;
+      margin-top: 8px;
+    }
+
+    .label {
+      font-weight: 600;
+    }
+
+    a {
+      color: var(--accent);
+      text-decoration: none;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+
+    footer {
+      text-align: center;
+      margin-top: 24px;
+      font-size: 0.8rem;
+      color: var(--muted);
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>Welcome to Your Stay</h1>
+      <p>We’re happy to host you. This guide gathers everything you need for a smooth and comfortable stay.</p>
+    </header>
+
+    <!-- Check-in / Check-out -->
+    <section class="card">
+      <h2>Check-in &amp; Check-out <span class="tag">Arrival &amp; Departure</span></h2>
+      <p class="label">Check-in</p>
+      <ul>
+        <li>Standard check-in time: <strong>from 4:00 PM</strong>.</li>
+        <li>Self check-in with key box / smart lock: <strong>[insert code or instructions]</strong>.</li>
+        <li>Please let us know your approximate arrival time.</li>
+      </ul>
+
+      <p class="label" style="margin-top:10px;">Check-out</p>
+      <ul>
+        <li>Check-out time: <strong>before 11:00 AM</strong>.</li>
+        <li>Leave the keys: <strong>[where to leave them]</strong>.</li>
+        <li>Turn off lights, heating/AC, and close all windows.</li>
+      </ul>
+
+      <div class="highlight">
+        <span class="label">Late check-out:</span> subject to availability – please contact us in advance.
+      </div>
+    </section>
+
+    <!-- Contacts -->
+    <section class="card">
+      <h2>Contacts <span class="tag">Need Help?</span></h2>
+      <div class="two-columns">
+        <div>
+          <p class="label">Host</p>
+          <ul>
+            <li>Name: <strong>[Your name]</strong></li>
+            <li>Phone / WhatsApp: <strong>[+33 ...]</strong></li>
+            <li>Email: <strong>[you@example.com]</strong></li>
+          </ul>
+        </div>
+        <div>
+          <p class="label">Emergency</p>
+          <ul>
+            <li>Emergency services: <strong>112</strong></li>
+            <li>Nearest hospital: <strong>[Name + address]</strong></li>
+            <li>Non-urgent medical: <strong>[local number]</strong></li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- House Rules -->
+    <section class="card">
+      <h2>House Rules <span class="tag">Please Read</span></h2>
+      <ul>
+        <li><strong>No smoking</strong> inside the property.</li>
+        <li>No parties or events without prior approval.</li>
+        <li>Quiet hours: <strong>10:00 PM – 7:00 AM</strong>.</li>
+        <li>Only registered guests are allowed to stay overnight.</li>
+        <li>Please report any damage immediately.</li>
+      </ul>
+    </section>
+
+    <!-- Supermarkets & Restaurants -->
+    <section class="card">
+      <h2>Nearby Supermarkets &amp; Restaurants <span class="tag">Food &amp; Essentials</span></h2>
+      <div class="two-columns">
+        <div>
+          <p class="label">Supermarkets</p>
+          <ul>
+            <li><strong>[Supermarket 1]</strong> – [distance, e.g. 5 min by car]</li>
+            <li><strong>[Supermarket 2]</strong> – [opening hours]</li>
+          </ul>
+        </div>
+        <div>
+          <p class="label">Restaurants</p>
+          <ul>
+            <li><strong>[Restaurant 1]</strong> – cuisine type, price range</li>
+            <li><strong>[Restaurant 2]</strong> – recommended for [pizza / seafood / etc.]</li>
+          </ul>
+        </div>
+      </div>
+      <div class="highlight">
+        Tip: you can also explore nearby options on <a href="https://www.google.com/maps" target="_blank">Google Maps</a> by searching the address of the property.
+      </div>
+    </section>
+
+    <!-- Transport -->
+    <section class="card">
+      <h2>Transport &amp; Getting Around <span class="tag">Move Around</span></h2>
+      <ul>
+        <li><span class="label">Parking:</span> [on-site / street / paid parking + instructions].</li>
+        <li><span class="label">Public transport:</span> nearest bus / tram stop: <strong>[name]</strong>, lines: <strong>[X, Y]</strong>.</li>
+        <li><span class="label">Train station:</span> [name] – approx. [X] minutes away.</li>
+        <li><span class="label">Taxi / VTC:</span> [local taxi number] or apps (Uber, Bolt, etc. if available).</li>
+      </ul>
+    </section>
+
+    <!-- Waste & Recycling -->
+    <section class="card">
+      <h2>Waste &amp; Recycling <span class="tag">Eco-friendly</span></h2>
+      <p>Please help us keep the place clean and environmentally friendly.</p>
+      <ul>
+        <li><span class="label">General waste:</span> [which bin / color + where it is located].</li>
+        <li><span class="label">Recycling:</span> [glass / paper / plastic – explain which bin for what].</li>
+        <li><span class="label">Collection days:</span> [e.g. Monday &amp; Thursday morning].</li>
+        <li>Do not leave bags outside the property except on collection days.</li>
+      </ul>
+    </section>
+
+    <!-- Optional: Wi-Fi / Appliances -->
+    <section class="card">
+      <h2>Wi‑Fi &amp; Essentials <span class="tag">Stay Connected</span></h2>
+      <ul>
+        <li><span class="label">Wi‑Fi network:</span> [SSID]</li>
+        <li><span class="label">Password:</span> [password]</li>
+        <li><span class="label">Heating / AC:</span> [how to use, recommended settings].</li>
+        <li><span class="label">Kitchen appliances:</span> short instructions for oven, hob, dishwasher, etc.</li>
+      </ul>
+    </section>
+
+    <footer>
+      Thank you for staying with us. If anything is unclear, please contact us anytime.
+    </footer>
+  </div>
+</body>
+</html>
